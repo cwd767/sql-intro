@@ -9,4 +9,15 @@
 -- | 2020 | Chicago White Sox |
 -- +------+-------------------+
 
+-- SELECT ______, __________ 
+-- FROM ________
+-- WHERE __________
+-- (AND _________)
+-- ORDER BY ________ (DESC)
+-- LIMIT ___________;
+
+SELECT year, name 
+FROM teams
+WHERE park = "Guaranteed Rate Field"
+;
 
